@@ -50,6 +50,12 @@ Para utilizar este proyecto, siga estos pasos:
     npm run build
     ```
 
+6. Ejecutar los test:
+
+    ```bash
+    npm run test
+    ```
+
 El servidor debería estar corriendo y accesible en `http://localhost:3000`.
 
 ## Estructura del Proyecto
