@@ -1,0 +1,21 @@
+module.exports = {
+  testEnvironment: "node",
+  testMatch: ["**/*.test.js"],
+  collectCoverage: true,
+  collectCoverageFrom: ["src/**/*.js"],
+  coverageDirectory: "coverage",
+  coverageReporters: ["text", "lcov"],
+  verbose: true,
+  bail: true,
+  clearMocks: true,
+  resetMocks: true,
+  resetModules: true,
+  restoreMocks: true,
+  moduleFileExtensions: ["js"],
+  moduleDirectories: ["node_modules", "src"],
+  transform: {
+    "^.+\\.js$": "babel-jest",
+  },
+  transformIgnorePatterns: ["<rootDir>/node_modules/"],
+  setupFilesAfterEnv: ["<rootDir>/jest.setup.js"],
+};
