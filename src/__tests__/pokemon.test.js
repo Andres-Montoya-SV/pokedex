@@ -1,8 +1,4 @@
-// add jest require for testing the API
-
 const axios = require("axios");
-
-// add jest require for testing the API
 const { Ok, Error } = require("../helpers");
 const logger = require("../config/logger-config");
 const { StatusCodes } = require("http-status-codes");
